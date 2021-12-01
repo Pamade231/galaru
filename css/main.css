@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:grey;
+}
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px grey;
+
+}
+
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 10px;
+   background-color: red;
+   border: 5px solig: blue;
+   background-position: white;
+   background-size: cover;
+   border-radius: 30px;
+   transition: 1.5s ease;
+
+}
+
+.photo:hover{
+   transform: rotate(36deg) scale(1.07);
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+}
+
+.photo1{
+	background-image: url(../img/ттр.jpg);
+}
+
+.photo2{
+	background-image: url(../img/moto2.jpg);
+}
+
+.photo3{
+   background-image: url(../img/s15.jpg);
+}
+
+.photo4{
+	background-image: url(../img/stant.jpg);
+}
